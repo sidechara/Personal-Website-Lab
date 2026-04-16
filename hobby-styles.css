@@ -1,0 +1,71 @@
+.page {
+    background-color:pink;
+}
+.center {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-family:'Lucida Sans';
+}
+.intro {
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 18px;
+}
+.types {
+    display: flex;
+    justify-self: center;
+    column-gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-family: 'Georgia';
+}
+.list-item {
+    gap: 20px;
+}
+.list-item-name {
+    font-size: 18px;
+}
+.image {
+    max-width: 600px;
+    animation-name: animation2;
+    animation-duration: 2s;
+    margin-left: -400px;
+}
+.books-i-like {
+    text-align: center;
+    animation-name: animation;
+    animation-duration: 1.7s;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+@keyframes animation {
+    from {margin-top: 300px; }
+    to {margin-top: -300px; }
+}
+@keyframes animation2 {
+    from {margin-left: 600px; }
+    to {margin-left: -400px; }
+}
+.prompt {
+    font-family: 'Lucida Sans';
+}
+.form {
+    padding: 20px;
+    font-family: 'Cambria';
+}
+.form-item {
+    margin: 20px;
+}
+.large-box {
+    height: 200px;
+    margin-left: 58px;
+}
+.return {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+

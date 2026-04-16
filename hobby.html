@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <title>My hobbies</title>
+  <link rel="stylesheet" href="hobby-styles.css">
+  <script type="text/javascript">
+    function confirmation() {
+        alert("Thank you for posting your submission!");
+    }
+  </script>
+</head>
+<body>
+
+<main>
+    <h1 class="title">Writing</h1>
+
+    <p class="intro">Welcome! I like to write and read books in my spare time. Some things I'm interested in include:</p>
+  <section class="types">
+
+    <div>
+    <div class="list-item">
+    <p><b class="list-item-name">SFF (Science fiction and fantasy). </b>In particular, I like "weird" fiction, i.e. stories that bend the genre expectations of SFF in meaningful ways.</p></div>
+
+    <div class="list-item">
+    <p><b class="list-item-name">Poetry. </b> Poetry is a unique way of communicating about feelings and ideas, and I sometimes write poetry to enhance my own poetic sensitivities, or just to express myself.</p></div>
+    </div>
+
+    <div>
+    <div class="list-item">
+    <p><b class="list-item-name">Literary fiction. </b>I love writing that makes me think, and I often seek to incorporate the qualities of literary prose in my own writing.</p></div>
+
+    <div class="list-item">
+    <p><b class="list-item-name">Critical essays. </b>Finally, I also sometimes like reading essays about books to deepen my knowledge of textual analysis and the craft of writing.</p></div>
+    </div>
+  </section>
+
+  <section class="center">
+    <img class="image" src="notebook.png" alt="Notebook and pen">
+  </section>
+
+  <div class="books-i-like">
+    <p class="intro">Some books I like include:</p>
+
+  <div class="center">
+    <video width="400" height="500" controls>
+    <source src="books.mp4" type="video/mp4">
+    </video>
+  </div>
+  </div>
+
+  <hr>
+
+  <h2 class="prompt">Want to try submitting a poem of your own?</h2>
+
+  <form class="form" onsubmit="return confirmation();">
+    <label class="form-text" for="Title">Title:</label>
+    <input class="form-item" type="text" id="Title" name="title" placeholder="Enter title">
+
+    <br>
+
+    <input class="large-box" type="text" name="text" placeholder="Your poem goes here">
+
+    <input type="submit" value="Submit">
+  </form>
+</main>
+
+<hr>
+
+<footer">
+  <div class="return">
+    <a href="index.html"><i>Click here to go back to the main page</i></a>
+  </div>
+</footer>
+
+</body>
+</html>
